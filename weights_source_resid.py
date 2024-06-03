@@ -15,9 +15,9 @@ source_site = sys.argv[1]
 cutoff_distance = sys.argv[2]
 
 # Set variables for file names and directories
-MDP_FILE = "input_files/namd-qmmm.mdp"
-GRO_FILE = "input_files/em.gro"
-TOP_FILE = "input_files/pen-esp.top"
+MDP_FILE = "namd-qmmm.mdp"
+GRO_FILE = "em.gro"
+TOP_FILE = "pen-esp.top"
 CHARGE_TRANSFER_SCRIPT = "test.sh"
 MOLECULE_SPEC = "pentacene-hole.spec"
 HAMILTONIAN_FILE = "TB_HAMILTONIAN.xvg"
